@@ -13,8 +13,6 @@ from .rules import check_rules
 class BaseUseCase(abc.ABC):
     """Описание бизнес-логики.
 
-    # TODO: Если найдется кейс с чтением данных через UseCase - обсудить.
-
     """
 
     initiator: User | None
